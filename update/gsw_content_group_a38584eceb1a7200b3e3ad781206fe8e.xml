@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="gsw_content_group">
+    <gsw_content_group action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <checksum>8+3IYZdo1dABE3Uv08vNum5hiAA=</checksum>
+        <children_layout>1</children_layout>
+        <dependent_on_contents/>
+        <dependent_on_plugins/>
+        <description><![CDATA[<p>These follow up meetings are normally held remotely via webex and are used to follow up on the previous 1st Visit onsite meetings to dive into the requirements a bit more and help to build out the stories that are being built up, they can be used to demo certain ideas or clarify requirements in more detail.</p>]]></description>
+        <display_child_max_num/>
+        <icon/>
+        <implicit_dependent_on/>
+        <implicit_plugin_dependencies>b81cdd8aebb13200b3e3ad781206fe28</implicit_plugin_dependencies>
+        <is_root_content>false</is_root_content>
+        <order>40</order>
+        <parent display_value="HRSM SIM">b81cdd8aebb13200b3e3ad781206fe28</parent>
+        <parents>b81cdd8aebb13200b3e3ad781206fe28</parents>
+        <root_intro_frame_link/>
+        <root_parent display_value="HRSM SIM">b81cdd8aebb13200b3e3ad781206fe28</root_parent>
+        <skippable>true</skippable>
+        <supports_child_content>true</supports_child_content>
+        <sys_class_name>gsw_content_group</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-04-19 16:05:24</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a38584eceb1a7200b3e3ad781206fe8e</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Virtual Meetings</sys_name>
+        <sys_package display_value="SIM (HRSM)" source="sn_sim_hrsm">e3cb998aebb13200b3e3ad781206fec6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="SIM (HRSM)">e3cb998aebb13200b3e3ad781206fec6</sys_scope>
+        <sys_update_name>gsw_content_group_a38584eceb1a7200b3e3ad781206fe8e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-04-19 16:39:19</sys_updated_on>
+        <title>Virtual Meetings</title>
+        <weight>1</weight>
+    </gsw_content_group>
+    <sys_translated_text action="delete_multiple" query="documentkey=a38584eceb1a7200b3e3ad781206fe8e"/>
+</record_update>

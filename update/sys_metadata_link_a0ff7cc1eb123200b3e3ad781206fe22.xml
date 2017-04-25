@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>ffd59b94eb1a7200b3e3ad781206fef0</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="rm_story">
+    <rm_story action="INSERT_OR_UPDATE">
+        <acceptance_criteria/>
+        <active>true</active>
+        <activity_due/>
+        <additional_assignee_list/>
+        <approval>not requested</approval>
+        <approval_history/>
+        <approval_set/>
+        <assigned_to/>
+        <assignment_group/>
+        <backlog_type>product</backlog_type>
+        <benefits>0</benefits>
+        <blocked>false</blocked>
+        <blocked_reason/>
+        <budget_cost>0</budget_cost>
+        <business_duration/>
+        <business_service/>
+        <calculation_type>automatic</calculation_type>
+        <calendar_duration/>
+        <classification>Feature</classification>
+        <close_notes/>
+        <closed_at/>
+        <closed_by/>
+        <cmdb_ci/>
+        <comments/>
+        <comments_and_work_notes/>
+        <company/>
+        <contact_type/>
+        <correlation_display/>
+        <correlation_id/>
+        <cost>0</cost>
+        <critical_path>false</critical_path>
+        <defect/>
+        <delivery_plan/>
+        <delivery_task/>
+        <dependency/>
+        <description/>
+        <due_date/>
+        <duration>1970-01-02 00:00:00</duration>
+        <effort/>
+        <end_date>2017-04-19 12:36:52</end_date>
+        <end_date_derived_from/>
+        <enhancement/>
+        <epic display_value="User Data">51b55b94eb1a7200b3e3ad781206fe72</epic>
+        <escalation>0</escalation>
+        <expected_start/>
+        <follow_up/>
+        <group_list/>
+        <html_description/>
+        <impact>3</impact>
+        <key_milestone>false</key_milestone>
+        <knowledge>false</knowledge>
+        <level/>
+        <location/>
+        <made_sla>true</made_sla>
+        <milestone>false</milestone>
+        <number>STRY0010040</number>
+        <opened_at>2017-04-19 12:36:52</opened_at>
+        <opened_by display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</opened_by>
+        <order/>
+        <parent/>
+        <parent_feature/>
+        <percent_complete>0</percent_complete>
+        <phase_type>waterfall</phase_type>
+        <priority>4</priority>
+        <product display_value="ServiceNow HRSM">fb69461aebf13200b3e3ad781206fe03</product>
+        <product_rel_index>1800000</product_rel_index>
+        <project/>
+        <project_index/>
+        <project_phase/>
+        <reassignment_count>0</reassignment_count>
+        <rejection_goto/>
+        <release/>
+        <release_index/>
+        <remaining_duration/>
+        <remaining_effort/>
+        <resource_allocated_cost>0</resource_allocated_cost>
+        <resource_planned_cost>0</resource_planned_cost>
+        <rollup>false</rollup>
+        <short_description>HR Criteria</short_description>
+        <skills/>
+        <sla_due/>
+        <sprint/>
+        <sprint_index/>
+        <start_date>2017-04-19 12:36:52</start_date>
+        <start_date_derived_from/>
+        <state>-6</state>
+        <status>green</status>
+        <story_points/>
+        <sub_tree_root/>
+        <sys_class_name>rm_story</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-04-19 12:36:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ffd59b94eb1a7200b3e3ad781206fef0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-04-19 12:36:56</sys_updated_on>
+        <task>HR Criteria​STRY0010040</task>
+        <team/>
+        <team_index/>
+        <theme display_value="Foundation Data">79a51b94eb1a7200b3e3ad781206fe1d</theme>
+        <time_card_at_top_task>false</time_card_at_top_task>
+        <time_constraint>asap</time_constraint>
+        <time_worked/>
+        <top_portfolio/>
+        <top_program/>
+        <top_task display_value="STRY0010040">ffd59b94eb1a7200b3e3ad781206fef0</top_task>
+        <type/>
+        <upon_approval>proceed</upon_approval>
+        <upon_reject>cancel</upon_reject>
+        <urgency>3</urgency>
+        <user_input/>
+        <variables/>
+        <version/>
+        <watch_list/>
+        <wbs/>
+        <wbs_order/>
+        <wf_activity/>
+        <work_cost>0</work_cost>
+        <work_duration/>
+        <work_effort/>
+        <work_end/>
+        <work_notes/>
+        <work_notes_list/>
+        <work_start/>
+    </rm_story>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-04-21 09:37:15</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a0ff7cc1eb123200b3e3ad781206fe22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HR Criteria</sys_name>
+        <sys_package display_value="SIM (HRSM)" source="sn_sim_hrsm">e3cb998aebb13200b3e3ad781206fec6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="SIM (HRSM)">e3cb998aebb13200b3e3ad781206fec6</sys_scope>
+        <sys_update_name>sys_metadata_link_a0ff7cc1eb123200b3e3ad781206fe22</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-04-21 09:37:15</sys_updated_on>
+        <tablename>rm_story</tablename>
+    </sys_metadata_link>
+</record_update>

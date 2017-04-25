@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="gsw_content_information">
+    <gsw_content_information action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <article><![CDATA[<p><strong>Ideally this meeting should be onsite</strong></p>
+<p><strong>Agenda:</strong></p>
+<p><strong>Sponsor Introduction and Expectations</strong></p>
+<ul><li>The project sponsor should articulate the business goals of the implementation and the expectation they have from the participants. ie.</li><li> Empowerment - make decisions.</li></ul>
+<p><strong>ServiceNow Introductions and Expectations</strong></p>
+<p><strong>Introduction to SIM and Agile Methodology</strong></p>
+<p>Expected Outcomes:</p>
+<ul><li>All ServiceNow resources are known</li><li>Customer project team are known</li><li>All attendees are aware of the projects goals</li><li>Process Owners feel empowered to make decisions</li></ul>]]></article>
+        <best_practice_acceptable>false</best_practice_acceptable>
+        <dependent_on_contents/>
+        <dependent_on_plugins/>
+        <description/>
+        <embedded_help_qualifier/>
+        <end_point>nav_to.do?uri=gsw_task.do?sys_id=314e2f58eb1a7200b3e3ad781206fe64</end_point>
+        <end_point_open_mode>2</end_point_open_mode>
+        <end_point_type>1</end_point_type>
+        <field/>
+        <implicit_dependent_on/>
+        <implicit_plugin_dependencies/>
+        <order>10</order>
+        <parent display_value="Visit 1">40c20e16ebf13200b3e3ad781206fe79</parent>
+        <parents>40c20e16ebf13200b3e3ad781206fe79,b81cdd8aebb13200b3e3ad781206fe28</parents>
+        <quick_startable>false</quick_startable>
+        <root_parent display_value="HRSM SIM">b81cdd8aebb13200b3e3ad781206fe28</root_parent>
+        <skippable>false</skippable>
+        <supports_child_content>false</supports_child_content>
+        <sys_class_name>gsw_content_information</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-30 19:03:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>318ead0eebb13200b3e3ad781206fe27</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>Kick Off Meeting</sys_name>
+        <sys_package display_value="SIM (HRSM)" source="sn_sim_hrsm">e3cb998aebb13200b3e3ad781206fec6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="SIM (HRSM)">e3cb998aebb13200b3e3ad781206fec6</sys_scope>
+        <sys_update_name>gsw_content_information_318ead0eebb13200b3e3ad781206fe27</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-04-19 16:10:26</sys_updated_on>
+        <table/>
+        <title>Kick Off Meeting</title>
+        <weight>1</weight>
+    </gsw_content_information>
+    <sys_translated_text action="delete_multiple" query="documentkey=318ead0eebb13200b3e3ad781206fe27"/>
+</record_update>

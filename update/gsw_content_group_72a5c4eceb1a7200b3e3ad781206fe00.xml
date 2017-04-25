@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="gsw_content_group">
+    <gsw_content_group action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <checksum>LzarCkqU+Fw1HBS0SAWMZ2Ba+Dw=</checksum>
+        <children_layout>1</children_layout>
+        <dependent_on_contents/>
+        <dependent_on_plugins/>
+        <description><![CDATA[<p>The 2nd visit normally entails a series of &#39;Deeper Dive&#39; meetings in order for the ServiceNow team and the customer to agree more specific requirements and/or look into the technology in more detail.</p>
+<p>They can also be used to demonstrate more best practice functionality and agree with the customer whether this can be implemented or used as a starting point for their implementation.</p>
+<p>All of the customers requirements should now be captured into stories ready for the Story Refinement phase.</p>]]></description>
+        <display_child_max_num/>
+        <icon/>
+        <implicit_dependent_on/>
+        <implicit_plugin_dependencies>b81cdd8aebb13200b3e3ad781206fe28</implicit_plugin_dependencies>
+        <is_root_content>false</is_root_content>
+        <order>50</order>
+        <parent display_value="HRSM SIM">b81cdd8aebb13200b3e3ad781206fe28</parent>
+        <parents>b81cdd8aebb13200b3e3ad781206fe28</parents>
+        <root_intro_frame_link/>
+        <root_parent display_value="HRSM SIM">b81cdd8aebb13200b3e3ad781206fe28</root_parent>
+        <skippable>true</skippable>
+        <supports_child_content>true</supports_child_content>
+        <sys_class_name>gsw_content_group</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-04-19 16:05:47</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>72a5c4eceb1a7200b3e3ad781206fe00</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Visit 2</sys_name>
+        <sys_package display_value="SIM (HRSM)" source="sn_sim_hrsm">e3cb998aebb13200b3e3ad781206fec6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="SIM (HRSM)">e3cb998aebb13200b3e3ad781206fec6</sys_scope>
+        <sys_update_name>gsw_content_group_72a5c4eceb1a7200b3e3ad781206fe00</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-04-19 16:42:20</sys_updated_on>
+        <title>Visit 2</title>
+        <weight>1</weight>
+    </gsw_content_group>
+    <sys_translated_text action="delete_multiple" query="documentkey=72a5c4eceb1a7200b3e3ad781206fe00"/>
+</record_update>

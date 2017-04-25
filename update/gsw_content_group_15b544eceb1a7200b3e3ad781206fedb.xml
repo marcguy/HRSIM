@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="gsw_content_group">
+    <gsw_content_group action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <checksum>E8baPlwtM5ExJHgiiIHEhDEfqS4=</checksum>
+        <children_layout>1</children_layout>
+        <dependent_on_contents/>
+        <dependent_on_plugins/>
+        <description/>
+        <display_child_max_num/>
+        <icon/>
+        <implicit_dependent_on/>
+        <implicit_plugin_dependencies>b81cdd8aebb13200b3e3ad781206fe28</implicit_plugin_dependencies>
+        <is_root_content>false</is_root_content>
+        <order>60</order>
+        <parent display_value="HRSM SIM">b81cdd8aebb13200b3e3ad781206fe28</parent>
+        <parents>b81cdd8aebb13200b3e3ad781206fe28</parents>
+        <root_intro_frame_link/>
+        <root_parent display_value="HRSM SIM">b81cdd8aebb13200b3e3ad781206fe28</root_parent>
+        <skippable>true</skippable>
+        <supports_child_content>true</supports_child_content>
+        <sys_class_name>gsw_content_group</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-04-19 16:05:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>15b544eceb1a7200b3e3ad781206fedb</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Story Refinement</sys_name>
+        <sys_package display_value="SIM (HRSM)" source="sn_sim_hrsm">e3cb998aebb13200b3e3ad781206fec6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="SIM (HRSM)">e3cb998aebb13200b3e3ad781206fec6</sys_scope>
+        <sys_update_name>gsw_content_group_15b544eceb1a7200b3e3ad781206fedb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-04-19 16:11:14</sys_updated_on>
+        <title>Story Refinement</title>
+        <weight>1</weight>
+    </gsw_content_group>
+    <sys_translated_text action="delete_multiple" query="documentkey=15b544eceb1a7200b3e3ad781206fedb"/>
+</record_update>

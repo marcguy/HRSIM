@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="gsw_content_information">
+    <gsw_content_information action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <article><![CDATA[<p style="margin: 0in 0in 0.0001pt 0.25in; font-size: 12pt; color: #000000; text-align: start;"><span style="font-size: 11pt;">Objective:</span></p>
+<ul><li style="margin: 0in 0in 0.0001pt 0.75in; font-size: 12pt; color: #000000; text-align: start;"><span style="font-size: 11pt;">Understanding standard HR Profile fields and talking customer through what they may need so that they can competently write subsequent stories defining data requirements.</span></li></ul>]]></article>
+        <best_practice_acceptable>false</best_practice_acceptable>
+        <dependent_on_contents/>
+        <dependent_on_plugins/>
+        <description/>
+        <embedded_help_qualifier/>
+        <end_point/>
+        <end_point_open_mode/>
+        <end_point_type/>
+        <field/>
+        <implicit_dependent_on/>
+        <implicit_plugin_dependencies/>
+        <order>30</order>
+        <parent display_value="Visit 1">40c20e16ebf13200b3e3ad781206fe79</parent>
+        <parents>40c20e16ebf13200b3e3ad781206fe79,b81cdd8aebb13200b3e3ad781206fe28</parents>
+        <quick_startable>false</quick_startable>
+        <root_parent display_value="HRSM SIM">b81cdd8aebb13200b3e3ad781206fe28</root_parent>
+        <skippable>true</skippable>
+        <supports_child_content>false</supports_child_content>
+        <sys_class_name>gsw_content_information</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-31 15:10:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c4f24e16ebf13200b3e3ad781206fe7b</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Data Workshop</sys_name>
+        <sys_package display_value="SIM (HRSM)" source="sn_sim_hrsm">e3cb998aebb13200b3e3ad781206fec6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="SIM (HRSM)">e3cb998aebb13200b3e3ad781206fec6</sys_scope>
+        <sys_update_name>gsw_content_information_c4f24e16ebf13200b3e3ad781206fe7b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-04-19 16:54:27</sys_updated_on>
+        <table/>
+        <title>Data Workshop</title>
+        <weight>1</weight>
+    </gsw_content_information>
+    <sys_translated_text action="delete_multiple" query="documentkey=c4f24e16ebf13200b3e3ad781206fe7b"/>
+</record_update>

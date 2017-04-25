@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>sn_sim_hrsm_hr_guided_setup_introduction.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+<g:inline template="ie_checker.xml"/>
+<g2:set_if var="jvar_msie_body_class" test="$[jvar_isMSIE]" true="ie" false="" />
+	<html class="$[jvar_msie_body_class]">
+		<head>
+			<link href="/styles/heisenberg/source_sans_pro.css" rel="stylesheet"/>
+			<link href="/styles/heisenberg/heisenberg_all.css" rel="stylesheet"/>
+			<style type="text/css">
+				body {
+					font-family: SourceSansPro;
+					padding-top: 30px;
+				}
+
+				.intro table.tile-container {
+					border-collapse: separate;
+					width: 100%;
+					padding-left: 2.5%;
+					padding-right: 2.5%;
+				}
+
+				.intro table.tile-container tbody tr td.tile {
+					min-height: 100px;
+					border: 1px solid #CFD4D8;
+					border-radius: 3px;
+				}
+
+				.intro .pad-t30 {
+					padding-top: 30px;
+				}
+
+				.intro td.tile-sep {
+					min-height: 100px;
+					width: 5%;
+				}
+
+				.intro td.tile {
+					min-height: 100px;
+					width: 30%;
+					border-radius: 3px;
+				}
+
+				.intro .height-100 {
+					min-height: 100px;
+				}
+
+				.intro .no-border {
+					border: 0;
+				}
+
+				.intro .no-margin {
+					margin: 0;
+				}
+
+				.intro .no-padding {
+					padding: 0;
+				}
+
+				.intro table {
+					border-collapse: separate;
+					border-radius: 3px;
+				}
+
+				.intro table tr {
+					border-radius: 3px;
+				}
+
+				.intro table tr td {
+					border-radius: 3px;
+				}
+
+				.intro table tbody tr td.v-center {
+					vertical-align: middle;
+				}
+
+				.intro table tbody tr td i.icon-text {
+					font-size: 20px;
+					color: #CBD5DA;
+				}
+
+				.intro .tile table tbody tr td.tile-body {
+					width: 10%;
+					padding: 17px 0 17px 17px;
+				}
+
+				.intro .tile table tbody tr td + td.tile-body {
+					width: 90%;
+					padding: 17px;
+				}
+
+				.intro p.title-text {
+					font-family: SourceSansProSemibold;
+					font-size: 18px;
+					color: #293943;
+				}
+
+				.intro p.header-text {
+					font-family: SourceSansProSemibold;
+					font-size: 15px;
+					color: #293943;
+				}
+
+				.intro p.body-text {
+					font-size: 13px;
+					line-height: 1.5em;
+					color: #81878E;
+				}
+
+				.intro .checklist p.body-text {
+					line-height: 1.6em;
+				}
+
+				.intro .tile img.icon-img {
+					height: 33px;
+					padding-top: 2px;
+				}
+
+				.intro .underline {
+					border-bottom: 1px solid #E8EAEC;
+				}
+
+				.intro .right-border-gray {
+					border-right: 1px solid #E8EAEC;
+				}
+
+				.intro li.list-group-item.border-top-gray {
+					border-top: 2px solid #E8EAEC;
+				}
+
+				.intro li+li.list-group-item.border-top-gray {
+					border-top: 1px solid #E8EAEC;
+				}
+
+				.intro .body {
+					padding-top: 60px;
+				}
+
+				.intro .wide2-5 {
+					min-height: 100px;
+					width: 2.5%;
+					float: left;
+				}
+
+				.intro .checklist {
+					width: 95%;
+					float: left;
+					border: 1px solid #CFD4D8;
+					border-radius: 3px;
+					box-shadow: 0 0 6px 0 #CFD4D8;
+					-webkit-box-shadow: 0 0 6px 0 #CFD4D8;
+					-moz-box-shadow: 0 0 6px 0 #CFD4D8;
+				}
+
+				.intro .checklist table tbody tr td.pad-15 {
+					padding: 15px;
+				}
+
+				.intro .checklist table tbody tr td.pad-checklist {
+					padding-right: 15px;
+				}
+
+				.intro .checklist table tbody tr td+td.pad-checklist {
+					padding-left: 15px;
+					padding-right: 15px;
+				}
+
+				.intro .checklist table tbody tr td+td.pad-checklist:last-child {
+					padding-left: 15px;
+					padding-right: 0px;
+				}
+
+				html.ie .intro .icon-max-width {
+					max-width: 40px;
+				}
+
+				/*
+				This is Edge specific fix since 'ie_checker.xml' does not check for edge
+				refer: https://jeffclayton.wordpress.com/2015/04/07/css-hacks-for-windows-10-and-spartan-browser-preview/
+				*/
+				@supports (-ms-accelerator:true) {
+					.intro .icon-max-width {
+						max-width: 40px;
+					}
+				}
+			</style>
+		</head>
+		<body>
+			<div class="container-fluid intro">
+				<div class="row">
+					<table class="table height-100 no-margin tile-container">
+						<tbody>
+							<tr>
+								<td class="no-padding tile">
+									<table class="table height-100 no-margin">
+										<tbody>
+											<tr>
+												<td class="tile-body no-border icon-max-width">
+													<img class="icon-img" src="/images/canon/get_going.svg"/>
+												</td>
+												<td class="tile-body no-border">
+													<p class="header-text">
+														${gs.getMessage('Setup');}
+													</p>
+													<p class="body-text">${gs.getMessage('Setup ServiceNow for HR Service Management');}</p>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+								<td class="no-padding no-border v-center tile-sep">
+									<table class="table no-margin height-100">
+										<tbody>
+											<tr>
+												<td class="no-border v-center text-center">
+													<i class="icon icon-chevron-right icon-text"></i>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+								<td class="no-padding tile">
+									<table class="table height-100 no-margin">
+										<tbody>
+											<tr>
+												<td class="tile-body no-border icon-max-width">
+													<img class="icon-img" src="/images/canon/learn.svg"/>
+												</td>
+												<td class="tile-body no-border">
+													<p class="header-text">
+														${gs.getMessage('Learn');}
+													</p>
+													<p class="body-text">${gs.getMessage('Learn more about HR Service Management within ServiceNow');}</p>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+								<td class="no-padding no-border v-center tile-sep">
+									<table class="table no-margin height-100">
+										<tbody>
+											<tr>
+												<td class="no-border v-center text-center">
+													<i class="icon icon-chevron-right icon-text"></i>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+								<td class="no-padding tile">
+									<table class="table height-100 no-margin">
+										<tbody>
+											<tr>
+												<td class="tile-body no-border icon-max-width">
+													<img class="icon-img" src="/images/canon/be_empowered.svg"/>
+												</td>
+												<td class="tile-body no-border">
+													<p class="header-text">
+														${gs.getMessage('Be empowered');}
+													</p>
+													<p class="body-text">${gs.getMessage('Empower you to make additional configuration changes');}</p>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<p><br></br>This guided setup will explain the ServiceNow recommended best practice process for HR Service Management and also allow you (if appropriate) to apply these configurations to your instance quickly. Following these steps will ensure you implement a simple, industry standard approach to HR Service Management. If you require a more complex process these configurations can also form the basis on which that is built.</p>
+<p>For detailed explanation on the best practice process for HR Service Management please read this $[AMP]nbsp; <a title="Process Guide." href="/sys_attachment.do?sysparm_referring_url=tear_off&amp;view=true&amp;sys_id=d2be566b138aa600e36b53c32244b047" target="_blank" rel="nofollow">Process Guide.</a></p>
+<p>You can find all the Product Documentation for $[AMP]nbsp;<a title="HR Service Management" href="https://docs.servicenow.com/bundle/istanbul-service-management-for-the-enterprise/page/product/human-resources/reference/r_HRLandingPage.html" target="_blank" rel="nofollow">HR Service Management </a> $[AMP]nbsp;here</p>
+				</div>
+			</div>
+		</body>
+	</html>
+</j:jelly>]]></html>
+        <name>hr_guided_setup_introduction</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-04-19 12:41:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>94869f94eb1a7200b3e3ad781206fe20</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>hr_guided_setup_introduction</sys_name>
+        <sys_package display_value="SIM (HRSM)" source="sn_sim_hrsm">e3cb998aebb13200b3e3ad781206fec6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="SIM (HRSM)">e3cb998aebb13200b3e3ad781206fec6</sys_scope>
+        <sys_update_name>sys_ui_page_94869f94eb1a7200b3e3ad781206fe20</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-04-19 14:16:21</sys_updated_on>
+    </sys_ui_page>
+</record_update>

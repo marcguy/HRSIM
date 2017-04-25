@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="gsw_content_group">
+    <gsw_content_group action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <checksum>eVS9z3SpSUZDXzTUjV2DUj+86Pw=</checksum>
+        <children_layout>1</children_layout>
+        <dependent_on_contents/>
+        <dependent_on_plugins/>
+        <description><![CDATA[<p>The following activities are part of the On Site Visit (Discovery) phase for the HRSM Implementation.</p>
+<p>Normally, ServiceNow implementation team will visit the customers premises and meet with the Customers Project team for the 1st time, this will entail a Kick Off meeting followed by a series of meetings  between stakeholders for the different processes that are going to be implementation in Phase 1</p>
+<p>ServiceNow may demonstrate our best practice recommendations for certain processes and discuss with the customer whether they accept the configuration recommended or use this as a starting point at least to build further into.</p>]]></description>
+        <display_child_max_num/>
+        <icon/>
+        <implicit_dependent_on/>
+        <implicit_plugin_dependencies>b81cdd8aebb13200b3e3ad781206fe28</implicit_plugin_dependencies>
+        <is_root_content>false</is_root_content>
+        <order>30</order>
+        <parent display_value="HRSM SIM">b81cdd8aebb13200b3e3ad781206fe28</parent>
+        <parents>b81cdd8aebb13200b3e3ad781206fe28</parents>
+        <root_intro_frame_link/>
+        <root_parent display_value="HRSM SIM">b81cdd8aebb13200b3e3ad781206fe28</root_parent>
+        <skippable>false</skippable>
+        <supports_child_content>true</supports_child_content>
+        <sys_class_name>gsw_content_group</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-31 15:10:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>40c20e16ebf13200b3e3ad781206fe79</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Visit 1</sys_name>
+        <sys_package display_value="SIM (HRSM)" source="sn_sim_hrsm">e3cb998aebb13200b3e3ad781206fec6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="SIM (HRSM)">e3cb998aebb13200b3e3ad781206fec6</sys_scope>
+        <sys_update_name>gsw_content_group_40c20e16ebf13200b3e3ad781206fe79</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-04-19 16:43:29</sys_updated_on>
+        <title>Visit 1</title>
+        <weight>1</weight>
+    </gsw_content_group>
+    <sys_translated_text action="delete_multiple" query="documentkey=40c20e16ebf13200b3e3ad781206fe79"/>
+</record_update>

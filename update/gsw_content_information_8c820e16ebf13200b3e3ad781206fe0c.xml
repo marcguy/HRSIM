@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="gsw_content_information">
+    <gsw_content_information action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <article><![CDATA[<p><span style="font-size: 8pt;">The Pre Kick Off meeting is used to help the Transition from ServiceNow Pre Sales to ServiceNow Professional Services</span></p>
+<ul><li><span style="font-size: 8pt;">The project sponsor should articulate the business goals of the implementation and the expectation they have from the participants. ie.</span></li><li><span style="font-size: 8pt;"> Empowerment - make decisions.</span></li><li><span style="font-size: 8pt;">Introduction of the resources that are going to be working on the Project (Engagement Manager, Technical Consultants)</span></li></ul>
+<p><span style="font-size: 8pt;">Expected Outcomes: </span></p>
+<ul><li><span style="font-size: 8pt;">Alignment between Customer and SN on scope </span></li><li><span style="font-size: 8pt;">Alignment between Customer and SN on timelines </span></li><li><span style="font-size: 8pt;">Initial and secondary visit dates floated </span></li><li><span style="font-size: 8pt;">Identification of available weeks for onsite visits </span></li><li><span style="font-size: 8pt;">EM able to engage Resource Management to locate/assign Delivery Resources </span></li><li><span style="font-size: 8pt;">RIDAC items documented in engagement domain/instance </span></li><li><span style="font-size: 8pt;">Customer knows SN Engagement Manager </span></li><li><span style="font-size: 8pt;">Customer equipped with next steps </span></li><li><span style="font-size: 8pt;">Scheduled Pre-Kickoff Meeting</span></li></ul>
+<p><span style="font-size: 8pt;">Hit the Configure button to be taken to the Project Task for Pre Kick Off which will include more details plus and supporting documentation required.</span></p>]]></article>
+        <best_practice_acceptable>false</best_practice_acceptable>
+        <dependent_on_contents/>
+        <dependent_on_plugins/>
+        <description/>
+        <embedded_help_qualifier/>
+        <end_point>/nav_to.do?uri=pm_project_task.do?sys_id=5d685bd4eb1a7200b3e3ad781206fe78</end_point>
+        <end_point_open_mode>2</end_point_open_mode>
+        <end_point_type>1</end_point_type>
+        <field/>
+        <implicit_dependent_on/>
+        <implicit_plugin_dependencies/>
+        <order>5</order>
+        <parent display_value="Preparation and Pre Kick Off">1c3504eceb1a7200b3e3ad781206fe1e</parent>
+        <parents>1c3504eceb1a7200b3e3ad781206fe1e,b81cdd8aebb13200b3e3ad781206fe28</parents>
+        <quick_startable>false</quick_startable>
+        <root_parent display_value="HRSM SIM">b81cdd8aebb13200b3e3ad781206fe28</root_parent>
+        <skippable>false</skippable>
+        <supports_child_content>false</supports_child_content>
+        <sys_class_name>gsw_content_information</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-31 15:09:04</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8c820e16ebf13200b3e3ad781206fe0c</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Pre Kick Off Meeting</sys_name>
+        <sys_package display_value="SIM (HRSM)" source="sn_sim_hrsm">e3cb998aebb13200b3e3ad781206fec6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="SIM (HRSM)">e3cb998aebb13200b3e3ad781206fec6</sys_scope>
+        <sys_update_name>gsw_content_information_8c820e16ebf13200b3e3ad781206fe0c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-04-19 16:04:03</sys_updated_on>
+        <table/>
+        <title>Pre Kick Off Meeting</title>
+        <weight>1</weight>
+    </gsw_content_information>
+    <sys_translated_text action="delete_multiple" query="documentkey=8c820e16ebf13200b3e3ad781206fe0c"/>
+</record_update>

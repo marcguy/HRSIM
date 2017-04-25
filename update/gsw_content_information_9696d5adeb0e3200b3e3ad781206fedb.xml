@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="gsw_content_information">
+    <gsw_content_information action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <article/>
+        <best_practice_acceptable>false</best_practice_acceptable>
+        <dependent_on_contents/>
+        <dependent_on_plugins/>
+        <description/>
+        <embedded_help_qualifier/>
+        <end_point/>
+        <end_point_open_mode/>
+        <end_point_type/>
+        <field/>
+        <implicit_dependent_on/>
+        <implicit_plugin_dependencies/>
+        <order>90</order>
+        <parent display_value="Story Refinement">2006d1adeb0e3200b3e3ad781206fef3</parent>
+        <parents>2006d1adeb0e3200b3e3ad781206fef3,40c20e16ebf13200b3e3ad781206fe79,b81cdd8aebb13200b3e3ad781206fe28</parents>
+        <quick_startable>false</quick_startable>
+        <root_parent display_value="HRSM SIM">b81cdd8aebb13200b3e3ad781206fe28</root_parent>
+        <skippable>true</skippable>
+        <supports_child_content>false</supports_child_content>
+        <sys_class_name>gsw_content_information</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-04-10 14:17:31</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>9696d5adeb0e3200b3e3ad781206fedb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Language Requirements</sys_name>
+        <sys_package display_value="SIM (HRSM)" source="sn_sim_hrsm">e3cb998aebb13200b3e3ad781206fec6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="SIM (HRSM)">e3cb998aebb13200b3e3ad781206fec6</sys_scope>
+        <sys_update_name>gsw_content_information_9696d5adeb0e3200b3e3ad781206fedb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-04-10 14:17:31</sys_updated_on>
+        <table/>
+        <title>Language Requirements</title>
+        <weight>1</weight>
+    </gsw_content_information>
+    <sys_translated_text action="delete_multiple" query="documentkey=9696d5adeb0e3200b3e3ad781206fedb"/>
+</record_update>
